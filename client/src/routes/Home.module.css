@@ -1,0 +1,263 @@
+.loading{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+}
+/*h3는 임의로 정해둔거여서 스타일에 따라 바꿔도 무관 바꿀 때 Home.js 부분도 수정*/
+/*Home.js Link to 는 버튼이라고 생각하면 됨*/
+
+/*header*/
+header{
+    width: 85vw;
+    height: 46px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 80px;
+    height: 35px;
+    margin: 0;
+}
+
+.loginBtn{
+    margin: 0;
+}
+
+/*main*/
+.slide-container {
+    width: 100vw;
+}
+
+.menu{
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.top_movie{
+    width: 78vw;
+    margin-top: 76px;
+}
+
+.top_movie_head{
+    height: 49px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top_movie_button{
+    width: 130px;
+    margin: 0;
+    display: flex;
+}
+
+.allBtn{
+    margin: 0;
+    justify-items: end;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.btn{
+    justify-content: flex-end;
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#top_movie_group{
+    width: 100%;
+}
+
+.nonscroll{
+    overflow: hidden;
+}
+.top_movie_ul{
+    transition-duration: 1s;
+    width: 100vw;
+    display: flex;
+}
+
+.top_movie_li{
+    margin: 0;
+    width: 18.5vw;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.top_movie_li_title{
+    text-align: start;
+    display: block;
+}
+
+.top_movie_li > img{
+    width: 100%;
+    display: block;
+    justify-content: center;
+}
+
+.top_movie_li_percent{
+    display: block;
+    text-align: start;
+}
+
+.top_movie_li_open{
+    display: block;
+    text-align: start;
+}
+
+.top_movie_li_age{
+    display: block;
+    text-align: start;
+}
+
+/*trailer*/
+.trailer{
+    width: 78vw;
+    margin-top: 76px;
+}
+
+.trailer_head{
+    height: 49px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trailer_head > h3{
+    margin: 0;
+}
+
+.trailer_button{
+    width: 130px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.trailer_group{
+    /*트레일러 영상 영역*/
+    display: flex;
+    overflow: hidden;
+    
+}
+
+.tailerImg{
+    width: 23vw;
+    position: relative;
+}
+.trailer_ul{
+    transition-duration: 1.5s;
+    width: 100vw;
+    display: flex;
+}
+.playBtn{
+    z-index: 2;
+    position: absolute;
+}
+.playBtnBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 384px;
+    height: 256px;
+}
+
+/*트레일러 영상 팝업 부분*/
+ .ss{
+    position: relative;
+    cursor: pointer;
+    
+    margin-right: 5vw;
+} 
+.movieTrail{
+    width: 100vw;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    z-index: 1;
+    top: 0;
+}
+.mainTrailer{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    background-color: rgba(5, 5, 5, 0.98);
+    text-align: center;
+}
+.closeBtn {
+    float: right;
+    margin-right: 3vw;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+.mainTrailer > div > video{
+    height: 90vh;
+    margin-top: 3vh;
+}
+
+/*장르별*/
+.genre{
+    width: 78vw;
+    margin-top: 76px;
+}
+
+.genre h3{
+
+}
+
+.genreBtns{
+
+}
+
+.genreBtns > button{
+
+}
+.genreList{
+
+}
+.genreList ul{
+    display: flex;
+    overflow: hidden;
+    justify-content: flex-start;
+}
+
+.genreMovies{
+    margin: 0;
+}
+
+.genreMovies a li{
+    
+    display: inline-block;
+    
+    
+}
+
+.genreMovies li img{
+    width: 10vw;
+}
+.genreTitle{
+    display: block;
+}
+
+.genreMovies li span{
+
+}
