@@ -1,0 +1,56 @@
+.companyBtn{
+    display: flex;
+    width: 78vw;
+    height: 49px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.companyBtn > h3{
+    margin: 0;
+}
+
+.btn{
+    margin: 0;
+}
+
+.btn > button{
+    margin: 5px;
+    font-size: 16px;
+}
+
+
+.allList{
+    width: 78vw;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 19.1vw);
+    grid-template-rows: auto;
+}
+
+.detailLink{
+
+}
+
+.detailBox{
+
+}
+.movieCompany{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.moviePoster{
+    width: 18.7vw;
+}
+.moviePoster img{
+    width: 100%;
+}
+.movieTitle{
+    font-size: 18px
+}
+.movieAge{
+
+}
+.moviePercent{
+    margin-bottom: 30px;
+}
