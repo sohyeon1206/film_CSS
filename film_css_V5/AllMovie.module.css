@@ -1,0 +1,96 @@
+.companyBtn{
+    display: flex;
+    width: 78vw;
+    height: 49px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.companyBtn > h3{
+    margin: 0;
+    width: 20%;
+    color: #ffd600;
+}
+.companyBtn > div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    width: 80%;
+}
+
+.companyBtn > div > button{
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+
+.allList{
+    width: 78vw;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 19.1vw);
+    grid-template-rows: auto;
+}
+
+.detailLink{
+
+}
+
+.detailBox{
+
+}
+.movieCompany{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.moviePoster{
+    width: 18.7vw;
+}
+.moviePoster img{
+    width: 100%;
+}
+.movieTitle{
+    font-size: 18px
+}
+.movieAge{
+
+}
+.moviePercent{
+    margin-bottom: 30px;
+}
+
+/*반응형 */
+@media (max-width:500px) {
+    .allList{
+        width: 78vw;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2, 38.2vw);
+        grid-template-rows: auto;
+    }
+
+    .moviePoster{
+        width: 37.4vw;
+    }
+    .moviePoster img{
+        width: 100%;
+    }
+    .movieTitle{
+        font-size: 16px
+    }
+
+    .movieAge{
+        font-size: 15px;
+    }
+
+    .moviePercent{
+        font-size: 15px;
+    }
+
+    .companyBtn > h3{
+        margin: 0;
+        width: 30%;
+    }
+}
